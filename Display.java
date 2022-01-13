@@ -76,7 +76,7 @@ public class Display extends Canvas implements KeyListener, Runnable {
 			return;
 		}
 		if (k)
-			automaton.nextIteration4();
+			automaton.nextIteration();
 		Graphics gfx = bs.getDrawGraphics();
 		gfx.drawImage(img, 0, 0, zoom * width, zoom * height, null);
 		gfx.dispose();
