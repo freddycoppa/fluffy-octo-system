@@ -1,5 +1,3 @@
-package ca;
-
 import java.util.Random;
 
 public class Automaton {
