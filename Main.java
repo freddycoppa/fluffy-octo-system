@@ -1,5 +1,3 @@
-package ca;
-
 import javax.swing.JFrame;
 
 public class Main {
